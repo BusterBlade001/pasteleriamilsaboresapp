@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#FFF5E1</color>
+    <color name="black">#FF000000</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="chocolate">#8B4513</color>
+    <color name="crema_pastel">#FFF5E1</color>
+    <color name="discount_background">#E8F5E9</color>
+    <color name="discount_green">#4CAF50</color>
+    <color name="gris_claro">#B0BEC5</color>
+    <color name="ic_launcher_background">#FFF5E1</color>
+    <color name="marron_oscuro">#5D4037</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="rosa_suave">#FFC0CB</color>
+    <color name="status_bar">#E8A5B0</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="text_primary">#5D4037</color>
+    <color name="text_secondary">#B0BEC5</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="active_discounts">Descuentos Activos</string>
+    <string name="add_to_cart">Agregar al Carrito</string>
+    <string name="all_categories">Todas las categorías</string>
+    <string name="app_name">Pastelería 1000 Sabores</string>
+    <string name="birth_date">Fecha de Nacimiento</string>
+    <string name="cancel">Cancelar</string>
+    <string name="cart_empty">Tu carrito está vacío</string>
+    <string name="cart_empty_message">Agrega algunos productos deliciosos para comenzar</string>
+    <string name="cart_title">Mi Carrito</string>
+    <string name="checkout">Finalizar Compra</string>
+    <string name="confirm_order">Confirmar Pedido</string>
+    <string name="customizable">Personalizable</string>
+    <string name="delivery_address">Dirección de Entrega</string>
+    <string name="delivery_address_hint">Ingresa tu dirección completa</string>
+    <string name="discount">Descuento</string>
+    <string name="discount_10_percent">10%% de Descuento de por Vida</string>
+    <string name="discount_10_reason">Código FELICES50 aplicado</string>
+    <string name="discount_50_percent">50%% de Descuento</string>
+    <string name="discount_50_reason">Por ser mayor de 50 años</string>
+    <string name="discount_code">Código de Descuento</string>
+    <string name="discount_code_hint">FELICES50</string>
+    <string name="duoc_student">Beneficio para estudiantes Duoc</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="error_generic">Ha ocurrido un error. Intenta nuevamente.</string>
+    <string name="free_birthday_cake">Torta Gratis en tu Cumpleaños</string>
+    <string name="full_name">Nombre Completo</string>
+    <string name="home_subtitle">Desde 1975, creando momentos memorables con las mejores tortas y productos de repostería de Chile</string>
+    <string name="home_title">Celebrando 50 Años de Dulzura</string>
+    <string name="loading">Cargando…</string>
+    <string name="login_button">Iniciar Sesión</string>
+    <string name="login_message">Inicia sesión para realizar compras y gestionar tus pedidos</string>
+    <string name="login_title">Iniciar Sesión</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="nav_cart">Carrito</string>
+    <string name="nav_home">Inicio</string>
+    <string name="nav_orders">Mis Pedidos</string>
+    <string name="nav_profile">Mi Perfil</string>
+    <string name="no_discounts">No tienes descuentos activos actualmente</string>
+    <string name="no_orders">No tienes pedidos aún</string>
+    <string name="no_orders_message">Realiza tu primer pedido y aparecerá aquí</string>
+    <string name="no_products">No se encontraron productos</string>
+    <string name="notes">Notas Adicionales (opcional)</string>
+    <string name="notes_hint">Instrucciones especiales, mensaje personalizado, etc.</string>
+    <string name="ok">Aceptar</string>
+    <string name="order_created">Pedido creado exitosamente</string>
+    <string name="order_number">Pedido #%s</string>
+    <string name="orders_title">Mis Pedidos</string>
+    <string name="personal_info">Información Personal</string>
+    <string name="product_added">Producto agregado al carrito</string>
+    <string name="product_removed">Producto eliminado del carrito</string>
+    <string name="profile_title">Mi Perfil</string>
+    <string name="profile_updated">Perfil actualizado exitosamente</string>
+    <string name="remove_item">Eliminar</string>
+    <string name="save_changes">Guardar Cambios</string>
+    <string name="search_hint">Buscar productos…</string>
+    <string name="status_cancelled">Cancelado</string>
+    <string name="status_confirmed">Confirmado</string>
+    <string name="status_delivered">Entregado</string>
+    <string name="status_in_transit">En Camino</string>
+    <string name="status_pending">Pendiente</string>
+    <string name="status_preparing">En Preparación</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="total">Total</string>
+    <string name="view_products">Ver Productos</string>
+    <style name="ActionBar.Pasteleria" parent="Widget.MaterialComponents.ActionBar.Primary">
+        <item name="background">@color/rosa_suave</item>
+        <item name="titleTextColor">@color/marron_oscuro</item>
+        <item name="elevation">4dp</item>
+    </style>
+    <style name="Button.Pasteleria" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/rosa_suave</item>
+        <item name="android:textColor">@color/marron_oscuro</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Button.Pasteleria.Secondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/chocolate</item>
+        <item name="android:textColor">@color/chocolate</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="CardView.Pasteleria" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+    <style name="TextAppearance.Pasteleria.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance.Pasteleria.Headline" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textColor">@color/rosa_suave</item>
+        <item name="android:fontFamily">cursive</item>
+    </style>
+    <style name="TextAppearance.Pasteleria.Price" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/chocolate</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.Pasteleria.Title" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Theme.Pasteleria1000Sabores" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/rosa_suave</item>
+        <item name="colorPrimaryVariant">@color/status_bar</item>
+        <item name="colorOnPrimary">@color/marron_oscuro</item>
+        
+        
+        <item name="colorSecondary">@color/chocolate</item>
+        <item name="colorSecondaryVariant">@color/chocolate</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        
+        <item name="android:statusBarColor">@color/status_bar</item>
+        
+        
+        <item name="android:windowBackground">@color/background</item>
+        <item name="backgroundColor">@color/background</item>
+        
+        
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        
+        
+        <item name="actionBarStyle">@style/ActionBar.Pasteleria</item>
+    </style>
+    <style name="Theme.Pasteleria1000Sabores.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

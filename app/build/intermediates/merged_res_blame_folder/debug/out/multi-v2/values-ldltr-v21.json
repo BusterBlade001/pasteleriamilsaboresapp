@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.pasteleria1000sabores.app-mergeDebugResources-52:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\CETECOM\\.gradle\\caches\\transforms-3\\84706741d9f6efc98a017e74507d564f\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}
