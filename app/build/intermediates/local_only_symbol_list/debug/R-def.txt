@@ -21,6 +21,7 @@ color text_primary
 color text_secondary
 color white
 drawable ic_launcher_foreground
+drawable ic_shopping_cart
 id action_cart
 id add_to_cart_button
 id birth_date_edit_text
