@@ -3334,6 +3334,7 @@ id edit_query
 id edit_text_id
 id elastic
 id email_edit_text
+id email_layout
 id embed
 id end
 id endToStart
@@ -3404,6 +3405,8 @@ id linear
 id listMode
 id list_item
 id locale
+id login_button
+id logo_icon
 id ltr
 id m3_side_sheet
 id marquee
@@ -3524,6 +3527,8 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id password_edit_text
+id password_layout
 id password_toggle
 id path
 id pathRelative
@@ -3544,6 +3549,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id register_link
 id remove_item_button
 id report_drawn
 id reverseSawtooth
@@ -3682,6 +3688,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id welcome_text
 id west
 id withText
 id with_icon
@@ -3806,6 +3813,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_login
 layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item

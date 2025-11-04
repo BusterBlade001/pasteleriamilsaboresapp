@@ -12,8 +12,12 @@
         "source": "C:\\Users\\CETECOM\\.gradle\\daemon\\8.2\\com.pasteleria1000sabores.app-main-56:\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "com.pasteleria1000sabores.app-mergeDebugResources-53:/layout/nav_header.xml",
-        "source": "com.pasteleria1000sabores.app-main-56:/layout/nav_header.xml"
+        "merged": "com.pasteleria1000sabores.app-mergeDebugResources-53:/layout/activity_login.xml",
+        "source": "com.pasteleria1000sabores.app-main-56:/layout/activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\CETECOM\\.gradle\\daemon\\8.2\\com.pasteleria1000sabores.app-mergeDebugResources-53:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\CETECOM\\.gradle\\daemon\\8.2\\com.pasteleria1000sabores.app-main-56:\\layout\\activity_login.xml"
     },
     {
         "merged": "C:\\Users\\CETECOM\\.gradle\\daemon\\8.2\\com.pasteleria1000sabores.app-mergeDebugResources-53:\\layout\\item_order.xml",
