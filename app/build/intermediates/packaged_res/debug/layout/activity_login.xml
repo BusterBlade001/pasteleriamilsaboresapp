@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Bienvenido a Pastelería 1000 Sabores"
+        android:text="Bienvenido a Pastelería Mil Sabores"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@color/marron_oscuro"
         android:textStyle="bold"
