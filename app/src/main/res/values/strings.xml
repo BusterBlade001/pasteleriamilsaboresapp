@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Pastelería 1000 Sabores</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_cart">Carrito</string>
+    <string name="nav_profile">Mi Perfil</string>
+    <string name="nav_orders">Mis Pedidos</string>
+    
+    <!-- Home -->
+    <string name="home_title">Celebrando 50 Años de Dulzura</string>
+    <string name="home_subtitle">Desde 1975, creando momentos memorables con las mejores tortas y productos de repostería de Chile</string>
+    <string name="search_hint">Buscar productos…</string>
+    <string name="all_categories">Todas las categorías</string>
+    
+    <!-- Products -->
+    <string name="add_to_cart">Agregar al Carrito</string>
+    <string name="customizable">Personalizable</string>
+    <string name="no_products">No se encontraron productos</string>
+    
+    <!-- Cart -->
+    <string name="cart_title">Mi Carrito</string>
+    <string name="cart_empty">Tu carrito está vacío</string>
+    <string name="cart_empty_message">Agrega algunos productos deliciosos para comenzar</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="discount">Descuento</string>
+    <string name="total">Total</string>
+    <string name="checkout">Finalizar Compra</string>
+    <string name="remove_item">Eliminar</string>
+    
+    <!-- Checkout -->
+    <string name="delivery_address">Dirección de Entrega</string>
+    <string name="delivery_address_hint">Ingresa tu dirección completa</string>
+    <string name="notes">Notas Adicionales (opcional)</string>
+    <string name="notes_hint">Instrucciones especiales, mensaje personalizado, etc.</string>
+    <string name="confirm_order">Confirmar Pedido</string>
+    
+    <!-- Profile -->
+    <string name="profile_title">Mi Perfil</string>
+    <string name="personal_info">Información Personal</string>
+    <string name="full_name">Nombre Completo</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="birth_date">Fecha de Nacimiento</string>
+    <string name="discount_code">Código de Descuento</string>
+    <string name="discount_code_hint">FELICES50</string>
+    <string name="save_changes">Guardar Cambios</string>
+    <string name="active_discounts">Descuentos Activos</string>
+    <string name="no_discounts">No tienes descuentos activos actualmente</string>
+    
+    <!-- Orders -->
+    <string name="orders_title">Mis Pedidos</string>
+    <string name="no_orders">No tienes pedidos aún</string>
+    <string name="no_orders_message">Realiza tu primer pedido y aparecerá aquí</string>
+    <string name="order_number">Pedido #%s</string>
+    
+    <!-- Order Status -->
+    <string name="status_pending">Pendiente</string>
+    <string name="status_confirmed">Confirmado</string>
+    <string name="status_preparing">En Preparación</string>
+    <string name="status_in_transit">En Camino</string>
+    <string name="status_delivered">Entregado</string>
+    <string name="status_cancelled">Cancelado</string>
+    
+    <!-- Discounts -->
+    <string name="discount_50_percent">50%% de Descuento</string>
+    <string name="discount_50_reason">Por ser mayor de 50 años</string>
+    <string name="discount_10_percent">10%% de Descuento de por Vida</string>
+    <string name="discount_10_reason">Código FELICES50 aplicado</string>
+    <string name="free_birthday_cake">Torta Gratis en tu Cumpleaños</string>
+    <string name="duoc_student">Beneficio para estudiantes Duoc</string>
+    
+    <!-- Login -->
+    <string name="login_title">Iniciar Sesión</string>
+    <string name="login_message">Inicia sesión para realizar compras y gestionar tus pedidos</string>
+    <string name="login_button">Iniciar Sesión</string>
+    <string name="logout">Cerrar Sesión</string>
+    
+    <!-- Messages -->
+    <string name="product_added">Producto agregado al carrito</string>
+    <string name="product_removed">Producto eliminado del carrito</string>
+    <string name="order_created">Pedido creado exitosamente</string>
+    <string name="profile_updated">Perfil actualizado exitosamente</string>
+    <string name="error_generic">Ha ocurrido un error. Intenta nuevamente.</string>
+    
+    <!-- Common -->
+    <string name="ok">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="loading">Cargando…</string>
+    <string name="view_products">Ver Productos</string>
+</resources>
