@@ -10,19 +10,22 @@ import com.pasteleria1000sabores.data.model.Product
 
 class ProductViewModel(application: Application) : AndroidViewModel(application) {
     private val productDao = AppDatabase.getDatabase(application).productDao()
-    
+
     val allProducts: LiveData<List<Product>> = productDao.getAllProducts()
-    
+
     private val _selectedCategoryId = MutableLiveData<Int?>()
     val selectedCategoryId: LiveData<Int?> = _selectedCategoryId
-    
-    private val _searchQuery = MutableLiveData<String>()
+
+    // CAMBIO CLAVE: Inicializar _searchQuery con una cadena vacía ("")
+    private val _searchQuery = MutableLiveData<String>("")
     val searchQuery: LiveData<String> = _searchQuery
-    
+
     val filteredProducts: LiveData<List<Product>> = _searchQuery.switchMap { query ->
+        // La función .isNullOrEmpty() evaluará a true para null o ""
         if (query.isNullOrEmpty()) {
             _selectedCategoryId.switchMap { categoryId ->
                 if (categoryId == null) {
+                    // Si no hay búsqueda ni categoría seleccionada, muestra todos.
                     allProducts
                 } else {
                     productDao.getProductsByCategory(categoryId)
@@ -32,11 +35,11 @@ class ProductViewModel(application: Application) : AndroidViewModel(application)
             productDao.searchProducts(query)
         }
     }
-    
+
     fun setSelectedCategory(categoryId: Int?) {
         _selectedCategoryId.value = categoryId
     }
-    
+
     fun setSearchQuery(query: String) {
         _searchQuery.value = query
     }
